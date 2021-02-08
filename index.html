@@ -1,1 +1,40 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Happy</title>
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+      background: rgba(255, 247, 240,1);
+    }
+
+    #i-canvas {
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
+  <script src="./actions.js"></script>
+  <style type="text/css" abt="234"></style>
+<script>
+var _countAA = 0
+function doNothing(){}
+doNothing();
+document.addEventListener('keyup', function(){_countAA-=10;doNothing()}, false)
+document.addEventListener('click', function(){_countAA-=10;doNothing()}, false)
+
+</script></head>
+
+<body>
+  <canvas id="i-canvas" width="2880" height="344"></canvas>
+  <img id="i-image" src="./heart.png" alt="heart">
+
+<script src="./minify.js"></script>
+</body></html>

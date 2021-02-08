@@ -124,23 +124,23 @@ const Actions = [{
       },
       {
         text: 'H',
-        hsla: color2
+        hsla: color3
       },
       {
         text: 'A',
-        hsla: color2
+        hsla: color3
       },
       {
         text: 'P',
-        hsla: color2
+        hsla: color3
       },
       {
         text: 'P',
-        hsla: color2
+        hsla: color3
       },
       {
         text: 'Y',
-        hsla: color2
+        hsla: color3
       },
       {
         text: 'B',
@@ -171,9 +171,9 @@ const Actions = [{
         hsla: color2
       },
       {
-        text: '',
+        text: 'Y',
         hsla: color2
-      },
+      }
     ]
   },
 ]
